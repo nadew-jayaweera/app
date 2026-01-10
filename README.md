@@ -1,5 +1,8 @@
 # app
 
+```
+pip install numpy scikit-learn pandas matplotlib seaborn
+```
 
 
 <!-- Used in modern defensive systems.
