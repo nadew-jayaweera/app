@@ -19,7 +19,7 @@ import pickle
 class SecurityAnalysisTool:
     def __init__(self, root):
         self.root = root
-        self.root.title("🛡️ Advanced Security Analysis Tool - ML Defense System")
+        self.root.title("🛡️ Advanced Security Analysis Tool")
         self.root.geometry("1400x900")
         self.root.configure(bg="#1e1e2e")
         
@@ -59,7 +59,7 @@ class SecurityAnalysisTool:
         header.pack(fill=tk.X, pady=(0, 10))
         header.pack_propagate(False)
         
-        title = tk.Label(header, text="🛡️ ML-Powered Security Defense System", 
+        title = tk.Label(header, text="🛡️ Security Defense System", 
                         font=("Arial", 24, "bold"), bg="#313244", fg="#89b4fa")
         title.pack(pady=20)
         
